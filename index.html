@@ -82,7 +82,7 @@
         function prevFortune() {
             index = index - 1;
             if (index < 0) {
-                index = 11;
+                index = fortunes.length - 1;
             }
 
             updateFortune();
